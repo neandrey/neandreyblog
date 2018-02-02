@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 THEME = '/home/andrey/pyProject/pelican-svbhack'
 AUTHOR = 'andrey'
 SITENAME = '123'
-SITEURL = 'https://neandreyblog.herokuapp.com/'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
