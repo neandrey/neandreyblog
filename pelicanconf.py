@@ -6,7 +6,7 @@ AUTHOR = 'andrey'
 SITENAME = '123'
 SITEURL = 'https://github.com/neandrey/neandreyblog/tree/master/output'
 
-PATH = 'output'
+PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
