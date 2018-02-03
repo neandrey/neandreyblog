@@ -30,7 +30,7 @@ USER_LOGO_URL = SITEURL + '/static/images/logo.png'
 TAGLINE = 'hello andrey ... '
 ROUND_USER_LOGO = True
 #Theme
-THEME = "thems/pelican-svbhack"
+THEME = "pelican-svbhack"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
