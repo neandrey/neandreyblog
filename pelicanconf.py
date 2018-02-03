@@ -8,16 +8,12 @@ AUTHOR = 'andrey'
 SITENAME = '123'
 SITEURL = 'https://neandreyblog.herokuapp.com/'
 
-# Define some project paths that have special meanings in Pelican
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
-#DEFAULT_DATE = 'fs'
-#DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 
-# Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -25,12 +21,6 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 
-USER_LOGO_URL = SITEURL + '/static/images/logo.png'
-
-#TAGLINE = 'hello andrey ... '
-#ROUND_USER_LOGO = True
-#Theme
-#THEME = "pelican-svbhack"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
