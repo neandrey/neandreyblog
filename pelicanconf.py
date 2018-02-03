@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'ne_andrey'
 SITENAME = u'123'
-SITEURL = 'https://neandreyblog.herokuapp.com/'
+SITEURL = 'https://neandreyblog.herokuapp.com'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
