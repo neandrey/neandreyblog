@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'andrey'
 SITENAME = '123'
-SITEURL = 'localhost'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
