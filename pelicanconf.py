@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'andrey'
 SITENAME = '123'
-SITEURL = 'https://neandreyblog.herokuapp.com/'
+SITEURL = 'localhost'
 
 PATH = 'content'
 
@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 #Theme
-THEME = "thems/pelican-svbhack"
+THEME = "/home/andrey/pyProject/pelican-svbhack"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
