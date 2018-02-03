@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 #Theme
-THEME = "/home/andrey/pyProject/pelican-svbhack"
+THEME = "pelican-svbhack"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
