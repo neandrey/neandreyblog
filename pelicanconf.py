@@ -34,11 +34,11 @@ THEME = "simple"
 
 #Blogroll
 LINKS = (
-    ('GitHub', 'https://github.com/CraigJPerry'),
+    ('GitHub', ),
 )
 
 SOCIAL = (
-    ('Twitter', 'https://twitter.com/CraigJPerry'),
+    ('Twitter', ),
 )
 
 
