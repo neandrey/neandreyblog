@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 
-THEME = 'https://github.com/neandrey/pelican-svbhack'
+THEME = 'thems/pelican-svbhack'
 AUTHOR = 'andrey'
 SITENAME = '123'
 SITEURL = 'https://neandreyblog.herokuapp.com/'
