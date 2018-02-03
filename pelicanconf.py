@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'andrey'
 SITENAME = '123'
-SITEURL = 'http://localhost:8000'#'https://neandreyblog.herokuapp.com/'
+SITEURL = 'https://neandreyblog.herokuapp.com/'
 
 # Define some project paths that have special meanings in Pelican
 PATH = 'content'
@@ -14,8 +14,8 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
-DEFAULT_DATE = 'fs'
-DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+#DEFAULT_DATE = 'fs'
+#DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -28,9 +28,9 @@ AUTHOR_FEED_RSS = None
 USER_LOGO_URL = SITEURL + '/static/images/logo.png'
 
 #TAGLINE = 'hello andrey ... '
-ROUND_USER_LOGO = True
+#ROUND_USER_LOGO = True
 #Theme
-THEME = "pelican-svbhack"
+#THEME = "pelican-svbhack"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
