@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'andrey'
 SITENAME = '123'
-SITEURL = 'https://neandreyblog.herokuapp.com/'
+SITEURL = 'http://localhost:8000'#'https://neandreyblog.herokuapp.com/'
 
 # Define some project paths that have special meanings in Pelican
 PATH = 'content'
