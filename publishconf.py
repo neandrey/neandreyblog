@@ -10,6 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+
+
 SITEURL = 'https://neandreyblog.herokuapp.com/'
 RELATIVE_URLS = False
 
