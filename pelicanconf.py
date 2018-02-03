@@ -27,7 +27,7 @@ AUTHOR_FEED_RSS = None
 
 USER_LOGO_URL = SITEURL + '/static/images/logo.png'
 
-TAGLINE = 'hello andrey ... '
+#TAGLINE = 'hello andrey ... '
 ROUND_USER_LOGO = True
 #Theme
 THEME = "pelican-svbhack"
