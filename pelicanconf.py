@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 #Theme
-THEME = "pelican-svbhack"
+THEME = "simple"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
