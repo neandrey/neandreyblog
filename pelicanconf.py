@@ -4,15 +4,15 @@ from __future__ import unicode_literals
 
 
 
-AUTHOR = 'andrey'
-SITENAME = '123'
+AUTHOR = u'andrey'
+SITENAME = u'123'
 SITEURL = 'https://neandreyblog.herokuapp.com/'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = u'en'
 
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
