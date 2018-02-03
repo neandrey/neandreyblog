@@ -59,12 +59,12 @@ SOCIAL = (('twitter', 'https://twitter.com/geospaced'),
           )
 
 # Photos plugin
-PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['photos']
-PHOTO_LIBRARY = "~/sites/photos"
-PHOTO_GALLERY = (1024, 768, 80)
-PHOTO_ARTICLE = (760,506, 80)
-PHOTO_THUMB = (192,144,60)
+# PLUGIN_PATHS = ['../pelican-plugins']
+# PLUGINS = ['photos']
+# PHOTO_LIBRARY = "~/sites/photos"
+# PHOTO_GALLERY = (1024, 768, 80)
+# PHOTO_ARTICLE = (760,506, 80)
+# PHOTO_THUMB = (192,144,60)
 
 # Blogroll
 #LINKS = (
