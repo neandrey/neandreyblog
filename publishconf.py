@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 
-
+THEME = '/home/andrey/pyProject/pelican-svbhack'
 SITEURL = 'https://neandreyblog.herokuapp.com/'
 RELATIVE_URLS = False
 
