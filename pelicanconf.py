@@ -28,6 +28,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 
+#Logo
+ROUND_USER_LOGO = True
+TAGLINE = 'anykey developer'
+
 
 
 #Blogroll
