@@ -5,3 +5,4 @@ Category: Python
 В этой статье мы исследуем инструменты языка python для получения различной информации о 
 работе системы Linux. Давайте начнем.
 
+[Какой Python](Linux%20System%20Mining/whichPython.md)
