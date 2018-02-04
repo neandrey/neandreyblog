@@ -36,7 +36,7 @@ LINKS = (
     ('GitHub', 'https://github.com/neandrey'),
 )
 LOCIAL = (
-    ('Twitter', ''),
+    ('Twitter', 'https://twitter.com/ne_andrey?lang=ru'),
 )
 
 
