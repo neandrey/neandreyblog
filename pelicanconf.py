@@ -14,8 +14,7 @@ THEME = 'themes/pelican-svbhack'
 
 # Define some project paths that have special meanings in Pelican
 PATH = 'content'
-# PAGE_PATHS = ['pages']
-# STATIC_PATHS = ['images']
+
 
 # Internationalization settings
 TIMEZONE = 'Europe/London'
@@ -33,10 +32,10 @@ AUTHOR_FEED_RSS = None
 
 #Blogroll
 LINKS = (
-    ('GitHub', 'https://github.com/neandrey'),
+    ('GitHub', 'https://github.com/neandrey',),
 )
 LOCIAL = (
-    ('Twitter', 'https://twitter.com/ne_andrey?lang=ru'),
+    ('Twitter', 'https://twitter.com/ne_andrey?lang=ru',),
 )
 
 
