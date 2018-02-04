@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 #Main information
 AUTHOR = u'ne_andrey'
-SITENAME = u'123'
+SITENAME = u'ne_andrey'
 SITEURL = 'https://neandreyblog.herokuapp.com'
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -33,8 +33,6 @@ ROUND_USER_LOGO = True
 TAGLINE = 'anykey developer'
 
 #Image_Info
-
-
 
 
 #Blogroll
