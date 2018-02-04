@@ -32,13 +32,12 @@ AUTHOR_FEED_RSS = None
 
 
 #Blogroll
-# LINKS = (
-#     ('GitHub', ),
-# )
-#
-# SOCIAL = (
-#     ('Twitter', ),
-# )
+LINKS = (
+    ('GitHub', 'https://github.com/neandrey'),
+)
+LOCIAL = (
+    ('Twitter', ''),
+)
 
 
 # Uncomment following line if you want document-relative URLs when developing
