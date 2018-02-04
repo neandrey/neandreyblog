@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 
-
+#Main information
 AUTHOR = u'ne_andrey'
 SITENAME = u'123'
 SITEURL = 'https://neandreyblog.herokuapp.com'
@@ -31,6 +31,9 @@ AUTHOR_FEED_RSS = None
 #Logo
 ROUND_USER_LOGO = True
 TAGLINE = 'anykey developer'
+
+#Image_Info
+
 
 
 
