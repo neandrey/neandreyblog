@@ -68,4 +68,20 @@ python для получения различной информации о
     ('SuSE', 'debian', 'fedora', 'redhat', 'centos', 'mandrake',
     'mandriva', 'rocks', 'slackware', 'yellowdog', 'gentoo',
     'UnitedLinux', 'turbolinux')
+Если вашего дистрибутива Linux нет в списке, тогда вы не увидите никакой информации из приведенного выше
+вызова функции.
+
+Последней функция из модуля `platform` мы рассмотрим ``architecture()``. Когда мы вызываем эту функцию без аргументов,
+эта функция вернет кортеж с разрядностью архитектуры и типом исполняемого формата Python.
+
+    >>> platform.architecture()
+        ('64bit', 'ELF')
+На 32-разрядных системах Linux вы увидите:
+
+    >>> platform.architecture()
+        ('32bit', 'ELF')
+Вы получите тот же результат если укажите любой другой исполняемый файл:
+
+    >>> platform.architecture(executable='/usr/bin/ls')
+        ('64bit', 'ELF')
 
