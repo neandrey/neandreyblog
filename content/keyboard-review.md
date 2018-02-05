@@ -84,4 +84,4 @@ python для получения различной информации о
 
     >>> platform.architecture(executable='/usr/bin/ls')
         ('64bit', 'ELF')
-
+12
