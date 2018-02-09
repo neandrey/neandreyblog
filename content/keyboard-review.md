@@ -34,56 +34,56 @@ python для получения различной информации о
 состоящий из: названия системы (названия Ядра), имени хоста, версии, релиза, разрядность машины и
 информацию о процессоре. Вы можете получить доступ к отдельным атрибутам вот так:
 
-    >>> platform.uname()[0]
-        'Linux'
+        >>> platform.uname()[0]
+            'Linux'
 На Python 3, функция вернет именованный кортеж:
 
-    >>> platform.uname()
+        >>> platform.uname()
 
-    uname_result(system='Linux', node='fedora.echorand',
-    release='3.7.4-204.fc18.x86_64', version='#1 SMP Wed Jan 23 16:44:29
-    UTC 2013', machine='x86_64', processor='x86_64')
+        uname_result(system='Linux', node='fedora.echorand',
+        release='3.7.4-204.fc18.x86_64', version='#1 SMP Wed Jan 23 16:44:29
+        UTC 2013', machine='x86_64', processor='x86_64')
 Поскольку возвращаемый результат - именованный кортеж, доступ к отдельным атребутам 
 можно получить по имени, вместо того чтобы запоминать индекс.
 
-    >>> platform.uname().system
-        'Linux'
+        >>> platform.uname().system
+            'Linux'
 модуль `platform` так же имеет непосредственный доступ к вышеперечисленным атрибутам
 
-    >>> platform.system()
-        'Linux'
+        >>> platform.system()
+            'Linux'
 
-    >>> platform.release()
-        '3.7.4-204.fc18.x86_64'
+        >>> platform.release()
+            '3.7.4-204.fc18.x86_64'
 Функция ``linux_distribution()`` возвращает детали Linux дистрибутиве установленном на вашей машине.
 Для примера взят дистрибутив Fedora 18 после вызова команда вернет:
 
 
-    >>> platform.linux_distribution()
-        ('Fedora', '18', 'Spherical Cow')
+        >>> platform.linux_distribution()
+            ('Fedora', '18', 'Spherical Cow')
 Результат возвращается в кортеже состоящем из имени дистрибутива, версии, и названием сборки.
 Дистрибутивы поддерживающие вашу версию Python могут быть получены вызовом атрибута 
 
-    >>> platform._supported_dists
-    ('SuSE', 'debian', 'fedora', 'redhat', 'centos', 'mandrake',
-    'mandriva', 'rocks', 'slackware', 'yellowdog', 'gentoo',
-    'UnitedLinux', 'turbolinux')
+        >>> platform._supported_dists
+        ('SuSE', 'debian', 'fedora', 'redhat', 'centos', 'mandrake',
+        'mandriva', 'rocks', 'slackware', 'yellowdog', 'gentoo',
+        'UnitedLinux', 'turbolinux')
 Если вашего дистрибутива Linux нет в списке, тогда вы не увидите никакой информации из приведенного выше
 вызова функции.
 
 Последней функция из модуля `platform` мы рассмотрим ``architecture()``. Когда мы вызываем эту функцию без аргументов,
 эта функция вернет кортеж с разрядностью архитектуры и типом исполняемого формата Python.
 
-    >>> platform.architecture()
-        ('64bit', 'ELF')
+        >>> platform.architecture()
+            ('64bit', 'ELF')
 На 32-разрядных системах Linux вы увидите:
 
-    >>> platform.architecture()
-        ('32bit', 'ELF')
+        >>> platform.architecture()
+            ('32bit', 'ELF')
 Вы получите тот же результат если укажите любой другой исполняемый файл:
 
-    >>> platform.architecture(executable='/usr/bin/ls')
-        ('64bit', 'ELF')
+        >>> platform.architecture(executable='/usr/bin/ls')
+            ('64bit', 'ELF')
 Вам предлагается изучить другие функции модуля `platform`, которые среди прочего позволяют найти текущуюю версию
 Python которую вы используете. Если вы заинтересованы узнать как этот модуль извлекает информацию. 
 Вам стоит рассмотреть файл lib\platform.py в каталоге с исходным кодом языка Python.
