@@ -477,6 +477,53 @@ Python которую вы используете. Если вы заинтер�
                 print(line)
         else:
             print(data)
+            
+####Блочные устройства.
+В следующем программном листинге все блочные устройства читаются из виртуальной файловой системы
+sysfs. Блочные устройства на вашем компьютере могут быть найдены в директории /sys/block.
+Так же у вас может быть такие директории как /sys/block/sda, /sys/block/sdb.
+Чтобы найти все блочные устройства надо выполнить сканирование \\ с помощью регулярного выражения 
+в котором мы пишем интересующиее нас устройства.
+
+    #!/usr/bin/env python
+
+    """
+    Read block device data from sysfs
+    """
+
+    from __future__ import print_function
+    import glob
+    import re
+    import os
+
+    # Add any other device pattern to read from
+    dev_pattern = ['sd.*','mmcblk*']
+
+    def size(device):
+        nr_sectors = open(device+'/size').read().rstrip('\n')
+        sect_size = open(device+'/queue/hw_sector_size').read().rstrip('\n')
+    
+        # The sect_size is in bytes, so we convert it to GiB and then send it back
+        return (float(nr_sectors)*float(sect_size))/(1024.0*1024.0*1024.0)
+
+    def detect_devs():
+        for device in glob.glob('/sys/block/*'):
+            for pattern in dev_pattern:
+                if re.compile(pattern).match(os.path.basename(device)):
+                    print('Device:: {0}, Size:: {1} GiB'.format(device, size(device)))
+
+    if __name__=='__main__':
+        detect_devs()
+
+Если ва выполните эту программу то получите на выходе что-то подобное:
+
+    Device:: /sys/block/sda, Size:: 465.761741638 GiB
+    Device:: /sys/block/mmcblk0, Size:: 3.70703125 GiB
+    
+Когда явыполнял программу у меня была воткнута SD карта
+и вы можете видеть что программа её обнаружила.
+
+####Создание утилит командной строки.
 
 
     
