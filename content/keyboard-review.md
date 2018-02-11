@@ -524,6 +524,112 @@ sysfs. Блочные устройства на вашем компьютере 
 и вы можете видеть что программа её обнаружила.
 
 ####Создание утилит командной строки.
+Одной из основных особенностей утилит командной строки \\ является наличие
+аргументов, которые позволяют настроить поведение программы.
+Модуль \\ позваляет вашим программам иметь такой же интерфейс как и у программ командной строки \\
+В следующей программе показано извлечение всех пользователей зарегеастрированных 
+в вашей системе и печать их на терминале.
+
+    #!/usr/bin/env python
+
+    """
+    Print all the users and their login shells
+    """
+
+    from __future__ import print_function
+    import pwd
 
 
-    
+    # Get the users from /etc/passwd
+    def getusers():
+        users = pwd.getpwall()
+        for user in users:
+            print('{0}:{1}'.format(user.pw_name, user.pw_shell))
+
+    if __name__=='__main__':
+        getusers()
+        
+Когда вы запустите данную программу она напечатает всех пользователей в вашей системе и их оболочку для входа.
+
+Теперь мы хотим чтобы пользователь программы мог выбрать хочет он видеть пользователей системы.
+Мы увидем использование модуля \\ для реализации этой функции путем расширения предыдушего списка.
+
+    #!/usr/bin/env python
+
+    """
+    Utility to play around with users and passwords on a Linux system
+    """
+
+    from __future__ import print_function
+    import pwd
+    import argparse
+    import os
+
+    def read_login_defs():
+
+        uid_min = None
+        uid_max = None
+
+        if os.path.exists('/etc/login.defs'):
+            with open('/etc/login.defs') as f:
+                login_data = f.readlines()
+
+            for line in login_data:
+                if line.startswith('UID_MIN'):
+                    uid_min = int(line.split()[1].strip())
+
+                if line.startswith('UID_MAX'):
+                    uid_max = int(line.split()[1].strip())
+
+    return uid_min, uid_max
+
+    # Get the users from /etc/passwd
+    def getusers(no_system=False):
+
+        uid_min, uid_max = read_login_defs()
+
+        if uid_min is None:
+            uid_min = 1000
+        if uid_max is None:
+            uid_max = 60000
+
+        users = pwd.getpwall()
+        for user in users:
+            if no_system:
+                if user.pw_uid >= uid_min and user.pw_uid <= uid_max:
+                    print('{0}:{1}'.format(user.pw_name, user.pw_shell))
+            else:
+                print('{0}:{1}'.format(user.pw_name, user.pw_shell))
+
+    if __name__=='__main__':
+
+        parser = argparse.ArgumentParser(description='User/Password Utility')
+
+        parser.add_argument('--no-system', action='store_true',dest='no_system',
+                            default = False, help='Specify to omit system users')
+
+        args = parser.parse_args()
+        getusers(args.no_system)
+
+
+При выполнении программы с опцией \\ вы увидете справочное сообшение о работе программы и
+используемых опциях.
+
+    $ ./getusers.py --help
+    usage: getusers.py [-h] [--no-system]
+
+    User/Password Utility
+
+    optional arguments:
+        -h, --help   show this help message and exit
+        --no-system  Specify to omit system users
+Пример вызова программы выглядет следующим образом.
+
+    $ ./getusers.py --no-system
+    gene:/bin/bash
+Когда вы передаете недопустимый параметр программа жалуется:
+
+    $ ./getusers.py --param
+    usage: getusers.py [-h] [--no-system]
+    getusers.py: error: unrecognized arguments: --param
+
