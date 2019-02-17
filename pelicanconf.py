@@ -6,7 +6,7 @@ AUTHOR = 'neandrey'
 SITENAME = 'neandreyblog'
 SITEURL = 'localhost:8000'
 
-PATH = 'content/'
+PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
