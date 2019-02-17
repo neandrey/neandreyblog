@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = 'neandrey'
 SITENAME = 'neandreyblog'
-SITEURL = 'https://neandreyblog.herokuapp.com'
+SITEURL = 'localhost:8000'
 
-PATH = 'content'
+PATH = 'content/'
 
 TIMEZONE = 'Europe/Paris'
 
