@@ -10,7 +10,7 @@ SITEURL = 'https://neandreyblog.herokuapp.com'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-THEME = '/home/ne_andrey/PycharmProjects/pelican-svbhack'
+THEME = 'themes/pelican-svbhack'
 
 # Define some project paths that have special meanings in Pelican
 PATH = 'content'
