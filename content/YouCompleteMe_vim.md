@@ -10,5 +10,11 @@ Category: Python
 домашних роутеров. Отличные материалы по Vim - это книга Роббинсона, а
 так же пособие vi Tips Jack Artymiak.
 Но сейчас не об этом. Vim хорош, можно включить подсветку, настроить
-отступы, умный перенос скобок, но в плане автодополнения 1345678fldjffjhrhhsgasdgvsdfvgjghf
-sdfsadjfhsadkjhfsakjhfksjad
+отступы, умный перенос скобок, но в плане автодополнения он сильно уступает
+своим конкурентам в виде полноценных IDE.
+Тогда на помощь мне пришло расширение YouCompleteMe, которое добавляет в vim
+автодополнение, что делает его похожим на IDE.
+
+[YouCompleteMe](https://valloric.github.io/YouCompleteMe)
+[Видео по установке Debian] (https://www.youtube.com/watch?v=2KNPR6-ZNS8)
+[WikiArch](https://wiki.archlinux.org/index.php/Vim/YouCompleteMe)
