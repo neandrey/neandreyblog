@@ -10,4 +10,5 @@ Category: Python
 домашних роутеров. Отличные материалы по Vim - это книга Роббинсона, а
 так же пособие vi Tips Jack Artymiak.
 Но сейчас не об этом. Vim хорош, можно включить подсветку, настроить
-отступы, умный перенос скобок, но в плане автодополнения 1345678fldjffjhrhhsgasdgvsdfvg
+отступы, умный перенос скобок, но в плане автодополнения 1345678fldjffjhrhhsgasdgvsdfvgjghf
+sdfsadjfhsadkjhfsakjhfksjad
