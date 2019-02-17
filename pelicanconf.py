@@ -10,11 +10,10 @@ SITEURL = 'https://neandreyblog.herokuapp.com'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-THEME = 'themes/pelican-svbhack'
+THEME = '/home/ne_andrey/PycharmProjects/pelican-svbhack'
 
 # Define some project paths that have special meanings in Pelican
 PATH = 'content'
-
 
 # Internationalization settings
 TIMEZONE = 'Europe/London'
