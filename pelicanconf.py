@@ -4,14 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = 'neandrey'
 SITENAME = 'neandreyblog'
-SITEURL = 'http://neandreyblog.github.io/'
+SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
-
 
 THEME = 'themes/pelican-svbhack'
 
@@ -23,14 +22,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('GitHub', 'https://github.com/neandrey'),
-         ('Twitter', 'https://twitter.com/ne_andrey?lang=en'))
+LINKS = (('GitHub', 'http://getpelican.com/'),
+        ('Twitter', 'https://twitter.com/ne_andrey'),
+         )
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
