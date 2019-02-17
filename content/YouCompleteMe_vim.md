@@ -7,7 +7,10 @@ Category: Python
 Я даже помню как мой хороший друг (пользователь Windows) не мог ничего
 сделать в этом редакторе и все действия был вынужден делать через
 графический интерфейс. Это было когда OpenWrt заваёвывала рынок
-домашних роутеров. Отличные материалы по Vim - это книга Роббинсона, а
+домашних роутеров.
+
+Отличные материалы по Vim - это книга [Роббинсона](http://www.symbol.ru/alphabet/827256.html)
+, а
 так же пособие vi Tips Jack Artymiak.
 Но сейчас не об этом. Vim хорош, можно включить подсветку, настроить
 отступы, умный перенос скобок, но в плане автодополнения он сильно уступает
@@ -16,5 +19,8 @@ Category: Python
 автодополнение, что делает его похожим на IDE.
 
 [YouCompleteMe](https://valloric.github.io/YouCompleteMe)
-[Видео по установке Debian] (https://www.youtube.com/watch?v=2KNPR6-ZNS8)
+
+[Видео по установке Debian](https://www.youtube.com/watch?v=2KNPR6-ZNS8)
+
 [WikiArch](https://wiki.archlinux.org/index.php/Vim/YouCompleteMe)
+
