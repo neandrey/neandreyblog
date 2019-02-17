@@ -12,8 +12,13 @@
 домашних роутеров. Отличные материалы по Vim - это книга Роббинсона, а
 так же пособие vi Tips Jack Artymiak.
 Но сейчас не об этом. Vim хорош, можно включить подсветку, настроить
-отступы, умный перенос скобок, но в плане автодополнения 1345678fldjffjhrhhsgasdgvsdfvgjghf
-sdfsadjfhsadkjhfsakjhfksjad&lt;/p&gt;</content></entry><entry><title>Math_Python</title><link href="https://neandrey.github.io/neandreyblog/math_python.html" rel="alternate"></link><published>2018-04-05T10:07:00+02:00</published><updated>2018-04-05T10:07:00+02:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2018-04-05:/neandreyblog/math_python.html</id><summary type="html">&lt;h4&gt;Введение.&lt;/h4&gt;
+отступы, умный перенос скобок, но в плане автодополнения он сильно уступает
+своим конкурентам в виде полноценных IDE.
+Тогда на помощь мне пришло расширение YouCompleteMe, которое добавляет в vim
+автодополнение, что делает его похожим на IDE.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://valloric.github.io/YouCompleteMe"&gt;YouCompleteMe&lt;/a&gt;
+[Видео по установке Debian] (https://www.youtube.com/watch?v=2KNPR6-ZNS8)
+&lt;a href="https://wiki.archlinux.org/index.php/Vim/YouCompleteMe"&gt;WikiArch&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Math_Python</title><link href="https://neandrey.github.io/neandreyblog/math_python.html" rel="alternate"></link><published>2018-04-05T10:07:00+02:00</published><updated>2018-04-05T10:07:00+02:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2018-04-05:/neandreyblog/math_python.html</id><summary type="html">&lt;h4&gt;Введение.&lt;/h4&gt;
 &lt;p&gt;Всегда интетересно поделится информацией подчерпнутой из книг, но ешё интереснее составить краткое содержание книги. Так как это может быть полезно 
 в плане стоит ли читать данную книгу или всё это я уже знаю.
 Недавно я закончил читать книгу &lt;a href="https://nostarch.com/doingmathwithpython"&gt;Doing Math with Python&lt;/a&gt; автора Amit Saha. 
