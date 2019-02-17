@@ -4,13 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = 'neandrey'
 SITENAME = 'neandreyblog'
-SITEURL = 'https://neandreyblog.herokuapp.com'
+SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
-
-THEME = 'themes/pelican-svbhack'
 
 DEFAULT_LANG = 'en'
 
