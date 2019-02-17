@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>neandreyblog - Python</title><link href="https://neandreyblog.herokuapp.com/" rel="alternate"></link><link href="https://neandreyblog.herokuapp.com/feeds/python.atom.xml" rel="self"></link><id>https://neandreyblog.herokuapp.com/</id><updated>2019-02-16T10:20:00+01:00</updated><entry><title>YouCompleteMe_vim</title><link href="https://neandreyblog.herokuapp.com/youcompleteme_vim.html" rel="alternate"></link><published>2019-02-16T10:20:00+01:00</published><updated>2019-02-16T10:20:00+01:00</updated><author><name>neandrey</name></author><id>tag:neandreyblog.herokuapp.com,2019-02-16:/youcompleteme_vim.html</id><summary type="html">&lt;p&gt;Большенство пользователей *nix систем применяют в своей работе vim.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>neandreyblog - Python</title><link href="https://neandrey.github.io/neandreyblog/" rel="alternate"></link><link href="https://neandrey.github.io/neandreyblog/feeds/python.atom.xml" rel="self"></link><id>https://neandrey.github.io/neandreyblog/</id><updated>2019-02-16T10:20:00+01:00</updated><entry><title>YouCompleteMe_vim</title><link href="https://neandrey.github.io/neandreyblog/youcompleteme_vim.html" rel="alternate"></link><published>2019-02-16T10:20:00+01:00</published><updated>2019-02-16T10:20:00+01:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2019-02-16:/neandreyblog/youcompleteme_vim.html</id><summary type="html">&lt;p&gt;Большенство пользователей *nix систем применяют в своей работе vim.
 Поначалу этот текстовый редактор кажется очень сложным и непонятным.
 Я даже помню как мой хороший друг (пользователь Windows) не мог ничего
 сделать в этом редакторе и все действия был вынужден делать через
@@ -12,7 +12,8 @@
 домашних роутеров. Отличные материалы по Vim - это книга Роббинсона, а
 так же пособие vi Tips Jack Artymiak.
 Но сейчас не об этом. Vim хорош, можно включить подсветку, настроить
-отступы, умный перенос скобок, но в плане автодополнения 1345678fldjffjhrhh&lt;/p&gt;</content></entry><entry><title>Math_Python</title><link href="https://neandreyblog.herokuapp.com/math_python.html" rel="alternate"></link><published>2018-04-05T10:07:00+02:00</published><updated>2018-04-05T10:07:00+02:00</updated><author><name>neandrey</name></author><id>tag:neandreyblog.herokuapp.com,2018-04-05:/math_python.html</id><summary type="html">&lt;h4&gt;Введение.&lt;/h4&gt;
+отступы, умный перенос скобок, но в плане автодополнения 1345678fldjffjhrhhsgasdgvsdfvgjghf
+sdfsadjfhsadkjhfsakjhfksjad&lt;/p&gt;</content></entry><entry><title>Math_Python</title><link href="https://neandrey.github.io/neandreyblog/math_python.html" rel="alternate"></link><published>2018-04-05T10:07:00+02:00</published><updated>2018-04-05T10:07:00+02:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2018-04-05:/neandreyblog/math_python.html</id><summary type="html">&lt;h4&gt;Введение.&lt;/h4&gt;
 &lt;p&gt;Всегда интетересно поделится информацией подчерпнутой из книг, но ешё интереснее составить краткое содержание книги. Так как это может быть полезно 
 в плане стоит ли читать данную книгу или всё это я уже знаю.
 Недавно я закончил читать книгу &lt;a href="https://nostarch.com/doingmathwithpython"&gt;Doing Math with Python&lt;/a&gt; автора Amit Saha. 
@@ -43,7 +44,7 @@
 Так же в конец были помещена обработка файлов формата .csv&lt;/p&gt;
 &lt;h4&gt;4 Глава.&lt;/h4&gt;
 &lt;p&gt;В данной главе рассказывается об применении символьных переменных. Показывается пример решения.
-В данной главе рассказывается...&lt;/p&gt;</content></entry><entry><title>Linux System Mining with Python</title><link href="https://neandreyblog.herokuapp.com/linux-system-mining-with-python.html" rel="alternate"></link><published>2018-02-04T10:20:00+01:00</published><updated>2018-02-04T10:20:00+01:00</updated><author><name>neandrey</name></author><id>tag:neandreyblog.herokuapp.com,2018-02-04:/linux-system-mining-with-python.html</id><summary type="html">&lt;p&gt;В этой статье мы исследуем инструменты языка 
+В данной главе рассказывается...&lt;/p&gt;</content></entry><entry><title>Linux System Mining with Python</title><link href="https://neandrey.github.io/neandreyblog/linux-system-mining-with-python.html" rel="alternate"></link><published>2018-02-04T10:20:00+01:00</published><updated>2018-02-04T10:20:00+01:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2018-02-04:/neandreyblog/linux-system-mining-with-python.html</id><summary type="html">&lt;p&gt;В этой статье мы исследуем инструменты языка 
 python для получения различной информации о 
 работе системы Linux. Давайте начнем.&lt;/p&gt;
 &lt;h4&gt;Какой интерпритатор python?&lt;/h4&gt;
