@@ -2,22 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+AUTHOR = 'neandrey'
+SITENAME = 'neandreyblog'
+SITEURL = ''
 
-#Main information
-AUTHOR = u'ne_andrey'
-SITENAME = u'ne_andrey'
-SITEURL = 'https://neandreyblog.herokuapp.com'
-
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
-THEME = 'themes/pelican-svbhack'
-
-# Define some project paths that have special meanings in Pelican
 PATH = 'content'
 
-# Internationalization settings
-TIMEZONE = 'Europe/London'
-DEFAULT_LANG = u'en'
+TIMEZONE = 'Europe/Paris'
+
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,22 +19,17 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Blogroll
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
 
-#Logo
-ROUND_USER_LOGO = True
-TAGLINE = 'anykey developer'
+# Social widget
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
 
-#Image_Info
-
-
-#Blogroll
-LINKS = (
-    ('GitHub', 'https://github.com/neandrey'),
-    ('Twitter', 'https://twitter.com/ne_andrey?lang=ru'),
-)
-# LOCIAL = (
-# )
-
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
