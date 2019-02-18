@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>neandreyblog - Python</title><link href="https://neandrey.github.io/neandreyblog/" rel="alternate"></link><link href="https://neandrey.github.io/neandreyblog/feeds/python.atom.xml" rel="self"></link><id>https://neandrey.github.io/neandreyblog/</id><updated>2019-02-16T10:20:00+01:00</updated><entry><title>YouCompleteMe_vim</title><link href="https://neandrey.github.io/neandreyblog/youcompleteme_vim.html" rel="alternate"></link><published>2019-02-16T10:20:00+01:00</published><updated>2019-02-16T10:20:00+01:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2019-02-16:/neandreyblog/youcompleteme_vim.html</id><summary type="html">&lt;p&gt;Большенство пользователей *nix систем применяют в своей работе vim.
-Поначалу этот текстовый редактор кажется очень сложным и непонятным.
-Я даже помню как мой хороший друг (пользователь Windows) не мог ничего
+<feed xmlns="http://www.w3.org/2005/Atom"><title>neandreyblog - Python</title><link href="https://neandrey.github.io/neandreyblog/" rel="alternate"></link><link href="https://neandrey.github.io/neandreyblog/feeds/python.atom.xml" rel="self"></link><id>https://neandrey.github.io/neandreyblog/</id><updated>2019-02-16T10:20:00+01:00</updated><entry><title>YouCompleteMe_vim</title><link href="https://neandrey.github.io/neandreyblog/youcompleteme_vim.html" rel="alternate"></link><published>2019-02-16T10:20:00+01:00</published><updated>2019-02-16T10:20:00+01:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2019-02-16:/neandreyblog/youcompleteme_vim.html</id><summary type="html">&lt;p&gt;Большенство пользователей &lt;code&gt;*nix&lt;/code&gt; систем применяют в своей работе &lt;code&gt;vim&lt;/code&gt;.
+Поначалу этот текстовый редактор кажется очень сложным и непонятным,
+особенно после использования '&lt;em&gt;обычных&lt;/em&gt;' редакторов.
+Я даже помню как мой хороший друг Марат не мог ничего
 сделать в этом редакторе и все действия был вынужден делать через
-графический интерфейс. Это было когда OpenWrt заваёвывала рынок
-домашних …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Большенство пользователей *nix систем применяют в своей работе vim.
-Поначалу этот текстовый редактор кажется очень сложным и непонятным.
-Я даже помню как мой хороший друг (пользователь Windows) не мог ничего
+графический интерфейс. Это было когда …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Большенство пользователей &lt;code&gt;*nix&lt;/code&gt; систем применяют в своей работе &lt;code&gt;vim&lt;/code&gt;.
+Поначалу этот текстовый редактор кажется очень сложным и непонятным,
+особенно после использования '&lt;em&gt;обычных&lt;/em&gt;' редакторов.
+Я даже помню как мой хороший друг Марат не мог ничего
 сделать в этом редакторе и все действия был вынужден делать через
-графический интерфейс. Это было когда OpenWrt заваёвывала рынок
+графический интерфейс. Это было когда сборка OpenWrt завоёвывала рынок
 домашних роутеров.&lt;/p&gt;
 &lt;p&gt;Отличные материалы по Vim - это книга &lt;a href="http://www.symbol.ru/alphabet/827256.html"&gt;Роббинсона&lt;/a&gt;
 , а
-так же пособие vi Tips Jack Artymiak.
-Но сейчас не об этом. Vim хорош, можно включить подсветку, настроить
+так же пособие &lt;code&gt;vi Tips Jack Artymiak&lt;/code&gt;.
+Но сейчас не об этом. Vim хорош - можно включить подсветку, настроить
 отступы, умный перенос скобок, но в плане автодополнения он сильно уступает
 своим конкурентам в виде полноценных IDE.
-Тогда на помощь мне пришло расширение YouCompleteMe, которое добавляет в vim
-автодополнение, что делает его похожим на IDE.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://valloric.github.io/YouCompleteMe"&gt;YouCompleteMe&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=2KNPR6-ZNS8"&gt;Видео по установке Debian&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://wiki.archlinux.org/index.php/Vim/YouCompleteMe"&gt;WikiArch&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Math_Python</title><link href="https://neandrey.github.io/neandreyblog/math_python.html" rel="alternate"></link><published>2018-04-05T10:07:00+02:00</published><updated>2018-04-05T10:07:00+02:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2018-04-05:/neandreyblog/math_python.html</id><summary type="html">&lt;h4&gt;Введение.&lt;/h4&gt;
+Тогда на помощь и приходит расширение YouCompleteMe, которое добавляет в vim
+автодополнение и делает его похожим на маленькую IDE.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://valloric.github.io/YouCompleteMe"&gt;YouCompleteMe&lt;/a&gt; - репозиторий на gitHub.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=2KNPR6-ZNS8"&gt;Видео по установке на Debian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wiki.archlinux.org/index.php/Vim/YouCompleteMe"&gt;WikiArch&lt;/a&gt; - статья на WikwArch
+немного помогла разобраться с .ycm_extra_conf&lt;/p&gt;
+&lt;p&gt;И ещё немного ссылок по работе с &lt;code&gt;vim&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.openvim.com/"&gt;Интерактивная обучалка командам Vim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vim-adventures.com/"&gt;приключенческая игра по Vim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://vimgenius.com/"&gt;то же игра по Vim два режима сложности&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://medium.freecodecamp.org/vim-isnt-that-scary-here-are-5-free-resources-you-can-use-to-learn-it-ab78f5726f8d"&gt;статья на freeCodeCamp о прочих ресурсах связанных с Vim&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Math_Python</title><link href="https://neandrey.github.io/neandreyblog/math_python.html" rel="alternate"></link><published>2018-04-05T10:07:00+02:00</published><updated>2018-04-05T10:07:00+02:00</updated><author><name>neandrey</name></author><id>tag:neandrey.github.io,2018-04-05:/neandreyblog/math_python.html</id><summary type="html">&lt;h4&gt;Введение.&lt;/h4&gt;
 &lt;p&gt;Всегда интетересно поделится информацией подчерпнутой из книг, но ешё интереснее составить краткое содержание книги. Так как это может быть полезно 
 в плане стоит ли читать данную книгу или всё это я уже знаю.
 Недавно я закончил читать книгу &lt;a href="https://nostarch.com/doingmathwithpython"&gt;Doing Math with Python&lt;/a&gt; автора Amit Saha. 
